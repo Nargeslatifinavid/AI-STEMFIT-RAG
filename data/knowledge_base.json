@@ -1,0 +1,599 @@
+[
+  {
+    "id": "math_fraction_comparison_01",
+    "subject": "Mathematics",
+    "topic": "Comparing fractions",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "When comparing fractions, the fraction with the larger denominator is the larger fraction.",
+    "misconception_variants": [
+      "One eighth is bigger than one quarter because eight is bigger than four.",
+      "3/7 is larger than 3/5 because 7 is larger than 5.",
+      "You compare fractions by comparing the numbers in them.",
+      "Fractions can be ordered the same way whole numbers are ordered.",
+      "Ein Achtel ist groesser als ein Viertel, weil acht groesser als vier ist."
+    ],
+    "correct_explanation": "The denominator states into how many equal parts the whole has been divided; it does not state a quantity. Dividing a whole into more parts makes each part smaller, so for unit fractions the order is inverted: 1/2 > 1/4 > 1/8. One quarter of a chocolate bar is larger than one eighth of the same bar, even though eight is larger than four. More generally, when two fractions share the same numerator, the one with the smaller denominator is larger, because it is built from larger parts. When the numerators differ, fractions can be compared using a common denominator, a benchmark such as 1/2, a number-line representation, or another valid comparison strategy. Whole-number ordering cannot be transferred to fractions because a fraction expresses a relationship between two numbers rather than a count.",
+    "why_it_arises": "Learners spend several years working exclusively with whole numbers, where a larger symbol reliably means a larger quantity. When fractions are introduced, this well-established rule is over-generalised to the new notation. The effect is strengthened when fractions are taught mainly as a pair of digits separated by a line rather than as a quantity that can be located on a number line or represented as part of a whole.",
+    "diagnostic_question": {
+      "question": "A pupil says one eighth is bigger than one quarter because eight is bigger than four. Use a diagram of a partitioned rectangle or a number line to show whether this ordering of fractions by denominator size is correct.",
+      "purpose": "To reveal whether the learner can reason about the size of fractional parts using a visual representation, or transfers whole-number ordering to denominators."
+    },
+    "suggested_exercise": {
+      "description": "Give participants an identical paper strip each and ask them to fold one into quarters and another into eighths, then shade one part of each and place both strips side by side. Follow up by asking them to place 1/2, 1/3, 1/4 and 1/8 on an empty number line from 0 to 1 and to state what happens to the size of the part as the denominator grows.",
+      "source": "Standard partitioning and number-line task; see Hart (1981) for the underlying research."
+    },
+    "sources": [
+      {
+        "citation": "Hart, K. M. (Ed.) (1981). Children's Understanding of Mathematics: 11-16. London: John Murray. (CSMS study.)",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Ma, L. (1999). Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States. Mahwah, NJ: Lawrence Erlbaum Associates.",
+        "url": "",
+        "supports": [
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Ma (1999) found that most US elementary teachers in her sample could carry out fraction procedures but could not explain the underlying quantities or generate a valid representation, indicating that fraction understanding is a documented gap in teachers' own subject-matter knowledge and not only in pupils'.",
+      "status": "partial"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "math_multiplication_01",
+    "subject": "Mathematics",
+    "topic": "Multiplication and division with numbers less than one",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "Multiplication always makes a number bigger and division always makes it smaller.",
+    "misconception_variants": [
+      "Multiplying makes numbers grow.",
+      "You cannot divide a number and get a result larger than what you started with.",
+      "6 divided by 0.5 must be less than 6.",
+      "8 times 0.5 must be more than 8.",
+      "Multiplikation macht Zahlen immer groesser."
+    ],
+    "correct_explanation": "The direction in which a number changes is determined by the operator, not by the operation. Multiplying by a factor greater than one increases the value, but multiplying by a factor between zero and one decreases it: 8 x 0.5 = 4. Dividing by a number greater than one decreases the value, but dividing by a number between zero and one increases it: 6 / 0.5 = 12, because half a unit fits into six units twelve times. The rule 'multiplication makes bigger' is a valid generalisation over the natural numbers only, and it fails as soon as the number domain is extended to fractions and decimals. Division has two interpretations: partition (sharing into a number of groups) and measurement or quotition (how many of the divisor fit into the dividend). The measurement interpretation is especially natural when dividing by a number smaller than one, whereas the usual whole-number sharing interpretation becomes difficult to apply directly.",
+    "why_it_arises": "The rule is learned implicitly and holds without exception during several years of work with whole numbers. It is reinforced by the two intuitive models normally used to introduce the operations: multiplication as repeated addition, which is meaningless for 0.5 as a multiplier, and division as sharing among people, which is meaningless for sharing among 0.5 people. Fischbein and colleagues describe these as implicit primitive models that continue to steer operation choice even after formal instruction.",
+    "diagnostic_question": {
+      "question": "Without calculating, decide whether the answer to 6 divided by 0.5 is greater than 6, less than 6, or equal to 6, and explain your reasoning in words.",
+      "purpose": "To reveal whether the learner applies the whole-number rule automatically, and whether they can access the measurement interpretation of division."
+    },
+    "suggested_exercise": {
+      "description": "Ask participants to write a realistic word problem whose solution is 6 divided by 0.5. Most produce a sharing situation and become stuck. Then contrast it with a measurement formulation such as 'how many half-metre pieces of ribbon can be cut from a six-metre roll?' and ask them to explain why the second works and the first does not.",
+      "source": "Word-problem generation task adapted from the division-by-fractions scenario in Ma (1999)."
+    },
+    "sources": [
+      {
+        "citation": "Fischbein, E., Deri, M., Nello, M. S. & Marino, M. S. (1985). The role of implicit models in solving verbal problems in multiplication and division. Journal for Research in Mathematics Education, 16(1), 3-17.",
+        "url": "https://www.semanticscholar.org/paper/a358d95e385ea09593860a48ab1453ceb8cbd01d",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Graeber, A. O., Tirosh, D. & Glover, R. (1989). Preservice teachers' misconceptions in solving verbal problems in multiplication and division. Journal for Research in Mathematics Education, 20(1), 95-102.",
+        "url": "https://pubs.nctm.org/view/journals/jrme/20/1/article-p95.xml",
+        "supports": [
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Graeber, Tirosh and Glover (1989) documented these same implicit-model errors in preservice elementary teachers, showing that the misconception persists into teacher education and is not restricted to pupils.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "math_area_perimeter_01",
+    "subject": "Mathematics",
+    "topic": "Relationship between area and perimeter",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "If the perimeter of a figure increases, its area must increase as well.",
+    "misconception_variants": [
+      "A bigger perimeter means a bigger area.",
+      "Two rectangles with the same perimeter must have the same area.",
+      "Making the fence longer always means enclosing more ground.",
+      "Wenn der Umfang groesser wird, wird auch der Flaecheninhalt groesser."
+    ],
+    "correct_explanation": "Perimeter and area measure different things and are not linked by any fixed relationship. Perimeter is a length, the distance once around the boundary; area is the amount of surface enclosed. A figure can gain perimeter while losing area. Among all rectangles with a perimeter of 16 units, the 4 by 4 square encloses 16 square units, the 6 by 2 rectangle encloses 12, and the 7 by 1 rectangle encloses only 7. The perimeter is identical in all three cases while the area varies by more than a factor of two. Conversely, the claim can appear to hold in special cases: enlarging a 4 by 4 square to a 4 by 8 rectangle raises the perimeter from 16 to 24 and the area from 16 to 32. A single confirming case does not establish a general rule, which is why a counterexample is the appropriate response to the claim.",
+    "why_it_arises": "Both quantities grow together in the everyday case of scaling a shape up uniformly, so experience supplies many confirming instances and few disconfirming ones. In addition, both are introduced as 'measurements of a shape' and are often computed from the same two numbers, which invites the assumption that they must move together.",
+    "diagnostic_question": {
+      "question": "A pupil claims that when the perimeter of a rectangle increases, its area must also increase, and offers 4 by 4 becoming 4 by 8 as evidence. Is the claim true in general? Justify your answer.",
+      "purpose": "To reveal whether the learner treats a confirming example as proof, and whether they can construct a counterexample rather than only judging the claim."
+    },
+    "suggested_exercise": {
+      "description": "Give each participant a loop of string 20 cm long. Ask them to form as many different rectangles as they can, record length, width and area for each in a table, and then describe what stays constant and what changes. Finish by asking which rectangle encloses the most area and why.",
+      "source": "Fixed-perimeter investigation; the scenario itself is taken from Ma (1999), chapter 4."
+    },
+    "sources": [
+      {
+        "citation": "Ma, L. (1999). Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States. Mahwah, NJ: Lawrence Erlbaum Associates. Chapter 4: Exploring New Knowledge: The Relationship Between Perimeter and Area.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "correct_explanation",
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "This scenario is one of the four Ma (1999) put to US and Chinese elementary teachers. A substantial proportion of the US teachers in her sample either accepted the pupil's claim or investigated it only superficially, rather than testing it with a counterexample.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "math_decimal_place_value_01",
+    "subject": "Mathematics",
+    "topic": "Place value in decimal notation",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "A decimal number with more digits after the decimal point is the larger number.",
+    "misconception_variants": [
+      "0.25 is bigger than 0.5 because 25 is bigger than 5.",
+      "1.15 is greater than 1.5.",
+      "The longer decimal is always the bigger number.",
+      "You compare decimals by comparing the digits after the point as if they were whole numbers.",
+      "0,25 ist groesser als 0,5, weil 25 groesser als 5 ist."
+    ],
+    "correct_explanation": "In decimal notation the value of a digit is determined by its position, not by the number of digits present. The first position after the point counts tenths, the second hundredths, the third thousandths. So 0.5 is five tenths, while 0.25 is two tenths and five hundredths. Writing 0.5 as 0.50 makes the comparison direct: fifty hundredths against twenty-five hundredths, so 0.5 is the larger number. Comparing decimals therefore means comparing digits of equal place value, working from the largest place downwards, and appending zeros where needed to align the positions. Reading the digits after the point as a whole number ignores place value entirely and produces the wrong order whenever the two numbers have different lengths.",
+    "why_it_arises": "With whole numbers, a longer string of digits does reliably mean a larger number, and this rule is applied to the decimal part by analogy. The digits after the point are also often read aloud as a whole number ('nought point twenty-five'), which reinforces treating them as a count rather than as tenths and hundredths. A second, opposite error exists in which learners assume the longer decimal is the smaller number because it refers to finer parts; that is a different misconception and is recorded separately.",
+    "diagnostic_question": {
+      "question": "Which is larger, 0.25 or 0.5? Explain your reasoning by referring to what each digit stands for, without converting the numbers to fractions.",
+      "purpose": "To reveal whether the learner reads decimal digits by place value or as a whole number appended after the point."
+    },
+    "suggested_exercise": {
+      "description": "Ask participants to place 0.5, 0.25, 0.05 and 0.125 on an empty number line between 0 and 1, and then to rewrite all four with the same number of decimal places and check whether their ordering survives. Discuss why appending a zero does not change a number's value.",
+      "source": "Number-line placement and equalising-decimal-places task."
+    },
+    "sources": [
+      {
+        "citation": "Resnick, L. B., Nesher, P., Leonard, F., Magone, M., Omanson, S. & Peled, I. (1989). Conceptual bases of arithmetic errors: The case of decimal fractions. Journal for Research in Mathematics Education, 20(1), 8-27.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Sackur-Grisvard, C. & Leonard, F. (1985). Intermediate cognitive organizations in the process of learning a mathematical concept: The order of positive decimal numbers. Cognition and Instruction, 2(2), 157-174.",
+        "url": "",
+        "supports": [
+          "misconception"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Decimal place-value errors are documented across age groups including adult learners; a study specific to primary teacher education has not yet been located for this entry.",
+      "status": "not_found"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "math_subtraction_regrouping_01",
+    "subject": "Mathematics",
+    "topic": "Subtraction with regrouping",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "The crossing-out step in written column subtraction is a borrowing trick with no connection to base-ten place value.",
+    "misconception_variants": [
+      "Just cross out the next digit and carry one.",
+      "Borrowing is only a written subtraction rule.",
+      "You borrow one and turn it into ten.",
+      "The crossed-out digit has no place-value meaning.",
+      "Regrouping is a trick, not exchanging one ten for ten ones.",
+      "Beim schriftlichen Abziehen borgt man sich einfach eine Eins."
+    ],
+    "correct_explanation": "Regrouping is not borrowing but decomposing a higher place-value unit. In 53 minus 27, the number 53 stands for five tens and three ones. Because seven ones cannot be taken from three ones, one ten is decomposed into ten ones, so 53 is rewritten as four tens and thirteen ones. Thirteen minus seven leaves six ones, and four tens minus two tens leaves two tens, giving 26. Nothing is lent and nothing is returned: the total quantity is unchanged, only its representation across the place-value columns is rearranged. The word 'borrowing' is misleading because it suggests a debt. Understanding the step as decomposing a unit of the next higher value is what connects the subtraction algorithm to place value and to the corresponding composing step in addition.",
+    "why_it_arises": "The algorithm can be executed correctly as a purely symbolic procedure, so a procedural account is sufficient for getting right answers and is rarely challenged. The traditional vocabulary of borrowing actively obscures the underlying place-value idea, and instruction often presents the crossing-out step as a rule to memorise rather than as a consequence of how the base-ten system represents quantity.",
+    "diagnostic_question": {
+      "question": "A pupil working out 53 minus 27 in columns crosses out the 5, writes 4 above it, and turns the 3 into 13. Asked why, the pupil says it is just the borrowing trick. Using base-ten blocks or bundles of ten sticks, explain what the crossed-out digit represents, which ten was decomposed, and where those ten ones went.",
+      "purpose": "To reveal whether the learner can explain the crossing-out step as decomposing one ten into ten ones within the base-ten place-value system, or can only name the borrowing procedure."
+    },
+    "suggested_exercise": {
+      "description": "Have participants model 53 minus 27 with base-ten blocks or bundled sticks, physically exchanging one ten-bundle for ten single sticks, and then write the symbolic algorithm alongside each physical move. Ask them to state which written mark corresponds to which physical exchange.",
+      "source": "Base-ten modelling task; scenario taken from Ma (1999), chapter 1."
+    },
+    "sources": [
+      {
+        "citation": "Ma, L. (1999). Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States. Mahwah, NJ: Lawrence Erlbaum Associates. Chapter 1: Subtraction With Regrouping.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "correct_explanation",
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Subtraction with regrouping is the first of the four scenarios Ma (1999) put to elementary teachers. The US teachers in her sample largely explained the step procedurally as borrowing, whereas the Chinese teachers connected it to composing and decomposing units of higher value, making this a documented gap in teachers' own subject-matter knowledge.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_floating_sinking_01",
+    "subject": "Science",
+    "topic": "Floating, sinking and density",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "Heavy objects always sink and light objects always float.",
+    "misconception_variants": [
+      "Big things sink and small things float.",
+      "A ship made of metal should sink because metal is heavy.",
+      "Whether something floats depends on how much it weighs.",
+      "Schwere Gegenstaende gehen immer unter."
+    ],
+    "correct_explanation": "Whether an object floats depends on its average density compared with the density of the surrounding fluid, not on its weight alone. Density is mass divided by volume. An object floats if its average density is lower than that of the fluid, and sinks if it is higher. A large steel ship floats because its hull encloses a great deal of air, so the average density of the whole ship, counting that enclosed air, is lower than the density of water, even though the ship's mass is enormous. A small steel screw sinks because it is solid steel throughout and its average density is roughly eight times that of water. The same material can therefore float or sink depending on how it is shaped. Equivalently, an object floats when the upward buoyant force, equal to the weight of the fluid it displaces, balances its own weight.",
+    "why_it_arises": "Everyday experience is dominated by small dense objects such as coins and stones that do sink, and small light objects such as leaves and corks that do float, so weight appears to be the deciding factor. Weight is also directly perceivable by lifting an object, whereas density is a ratio of two quantities and cannot be felt directly. The role of the fluid is usually invisible in these encounters, since almost all of them involve water.",
+    "diagnostic_question": {
+      "question": "A large steel ship floats while a small steel screw sinks. Both are made of the same material. Explain how this is possible.",
+      "purpose": "To reveal whether the learner reasons with average density and the role of enclosed volume, or attributes floating to weight."
+    },
+    "suggested_exercise": {
+      "description": "Give each participant a lump of modelling clay. First have them drop it into water as a solid ball, where it sinks. Then have them reshape the same lump into an open boat, where it floats. Ask them to state precisely what changed and what did not, and to connect this to the ship and screw case.",
+      "source": "Clay boat predict-observe-explain task."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Harrell, P. E., Kirby, B., Subramaniam, K., & Long, C. (2022). Are Elementary Preservice Teachers Floating or Sinking in Their Understanding of Buoyancy? PE Harrell et al. International Journal of Science and Mathematics Education, 20(2), 299-320.",
+        "url": "https://doi.org/10.1007/s10763-021-10160-7",
+        "supports": [
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Harrell and colleagues investigated conceptions of buoyancy held by 55 elementary preservice teachers enrolled in a science methods course and reported that the belief that objects sink because they are heavy and float because they are light is among the most prevalent alternative conceptions in this population.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_heat_temperature_01",
+    "subject": "Science",
+    "topic": "Heat, cold and thermal energy transfer",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "Cold is a substance that flows into a room or into an object.",
+    "misconception_variants": [
+      "Shut the door, the cold is getting in.",
+      "Cold comes in through the window.",
+      "The cold went into my hands.",
+      "Cold and heat are two different substances that move around.",
+      "Mach die Tuer zu, sonst kommt die Kaelte herein."
+    ],
+    "correct_explanation": "There is no substance called cold. Cold is not a thing that moves; it is not a substance or a form of energy. What physically happens is that heat, which is energy transferred because of a temperature difference, flows from the warmer region to the cooler one. Thermal energy always transfers from the region at higher temperature to the region at lower temperature, never the other way round on its own. When a door is opened on a winter day and the room becomes colder, what physically happens is that thermal energy leaves the warm room and moves outwards towards the colder air, while colder air also moves in and mixes. The correct description of the direction of transfer is therefore heat flowing out, not cold flowing in. The same reasoning applies to touch: hands feel cold against metal because thermal energy leaves the hand and enters the metal quickly, not because cold enters the hand. Temperature is a measure of how hot or cold something is, whereas heat is energy in transit between bodies at different temperatures; the two are not the same quantity.",
+    "why_it_arises": "Everyday language treats cold as an active agent that arrives, enters and gets in, and this way of speaking is used constantly and unreflectively by adults. Cold is also felt as a distinct positive sensation rather than as a lack of something, which supports treating it as a substance. The historical caloric model of heat as a fluid mirrors the same intuition, showing how natural the idea is.",
+    "diagnostic_question": {
+      "question": "Someone says 'shut the door, the cold is getting in.' From a physics standpoint, what is actually happening? State clearly in which direction energy is being transferred and why.",
+      "purpose": "To reveal whether the learner can restate an everyday expression in terms of directional energy transfer, or treats cold as a movable substance."
+    },
+    "suggested_exercise": {
+      "description": "Wrap one of two identical ice cubes in a woollen scarf and leave the other exposed, then ask participants to predict which melts first and to justify the prediction before observing. Most predict the wrapped cube melts faster because wool is warm. Use the result to separate the idea of an insulator slowing energy transfer from the idea of a material producing heat.",
+      "source": "Predict-observe-explain insulation task."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Erickson, G. L. (1979). Children's conceptions of heat and temperature. Science Education, 63(2), 221-230.",
+        "url": "https://doi.org/10.1002/sce.3730630210",
+        "supports": [
+          "misconception",
+          "correct_explanation"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Conflation of heat and temperature and treatment of cold as a substance are reported across school and university populations; a study specific to primary preservice teachers has not yet been located for this entry.",
+      "status": "not_found"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_plant_nutrition_01",
+    "subject": "Science",
+    "topic": "Plant nutrition and photosynthesis",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "Plants take their food from the soil through their roots.",
+    "misconception_variants": [
+      "Plants eat soil.",
+      "Fertiliser is food for plants.",
+      "A plant's mass comes mainly from the soil it grew in.",
+      "Water and minerals are the plant's food.",
+      "Pflanzen nehmen ihre Nahrung aus dem Boden auf."
+    ],
+    "correct_explanation": "Plants are autotrophs: they manufacture their own food rather than absorbing it. In photosynthesis the plant uses light energy to combine carbon dioxide taken from the air with water to produce glucose, releasing oxygen. A large fraction of a plant's dry mass is carbon, and this carbon comes from atmospheric carbon dioxide rather than from the soil. This is why a tree can gain hundreds of kilograms over its lifetime while the soil it grows in loses almost no mass: the additional material has been built largely from a gas. Roots do take up water and dissolved mineral ions such as nitrate and phosphate, but these are raw materials and nutrients used for building tissue and enabling metabolism, not a source of energy. Fertiliser supplies such minerals; despite being sold as plant food it is not food in the biological sense.",
+    "why_it_arises": "The everyday meaning of food is something an organism takes in from outside, which maps naturally onto roots drawing substances out of soil. Gases are not perceived as matter, so air is not intuitively a source of mass. Watering and fertilising are the visible acts of caring for a plant, and products labelled plant food reinforce the impression that the soil feeds the plant.",
+    "diagnostic_question": {
+      "question": "A tree seedling weighing two kilograms grows over twenty years into a tree weighing five hundred kilograms, while the soil around it has lost almost no mass at all. Where did the additional material come from?",
+      "purpose": "To reveal whether the learner identifies atmospheric carbon dioxide as the main source of plant biomass, once the soil explanation has been explicitly ruled out by the stated conservation of soil mass."
+    },
+    "suggested_exercise": {
+      "description": "Give participants cards naming water, minerals, carbon dioxide, sunlight, glucose and fertiliser, and ask them to sort each card into food, nutrient, or energy source, justifying every placement. Then have them trace a single carbon atom from the air into a leaf and on into wood, drawing each step and stating explicitly what the roots contribute and what they do not.",
+      "source": "Card-sort and carbon-tracing task; compare the van Helmont experiment discussed in Messig and Gross (2018)."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Messig, D., & Groß, J. (2018). Understanding plant nutrition—The genesis of students’ conceptions and the implications for teaching photosynthesis. Education Sciences, 8(3), 132.",
+        "url": "",
+        "supports": [
+          "correct_explanation",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Wynn, A. N., Rueschhoff, E. E., Archer, K., Pan, I., & Herman, M. (2016). A Meta-study of Common Plant Biology Misconceptions Beyond Photosynthesis and Respiration.",
+        "url": "https://fisherpub.sjf.edu/biology_facpub/29",
+        "supports": [
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Wynn and colleagues report in their meta-study of plant biology misconceptions that these conceptions permeate all age groups and levels of education, from preschool through preservice educators. A study focused specifically on primary preservice teachers would strengthen this entry.",
+      "status": "partial"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_force_motion_01",
+    "subject": "Science",
+    "topic": "Force and motion",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "A moving object must have a force continuously acting on it in the direction of motion.",
+    "misconception_variants": [
+      "If there is no force, the object stops.",
+      "Motion requires a force to keep it going.",
+      "When you throw a ball, the force from your hand stays inside the ball and runs out.",
+      "The puck slows down because the push wears off.",
+      "Ohne Kraft bleibt ein Koerper stehen."
+    ],
+    "correct_explanation": "An object does not need a force to keep moving. According to Newton's first law an object continues at constant velocity in a straight line unless a net force acts on it. Force is required to change motion, that is to speed up, slow down or change direction, not to sustain it. A puck sliding across ice gradually slows because friction and air resistance act on it in the direction opposite to its motion; these are unbalanced forces that reduce its speed. On a frictionless surface the puck would carry on indefinitely at the same speed with no push at all. Nothing from the stick is stored inside the puck: the stick exerted a force only while it was in contact, changing the puck's speed during that brief interval, and after separation no forward force acts on the puck whatsoever.",
+    "why_it_arises": "In everyday experience friction is always present, so every moving object does eventually stop unless it is continually pushed. That makes continuous force appear necessary for continuous motion. The idea also matches the historical impetus theory, in which a mover imparts a quantity to the object that gradually runs out, and this account is intuitively satisfying because it explains slowing without requiring an invisible opposing force.",
+    "diagnostic_question": {
+      "question": "A hockey puck slides across the ice and gradually slows down. A pupil says that it slows because the force from the stick 'runs out'. What is the scientific explanation, and what would happen on a perfectly frictionless surface?",
+      "purpose": "To reveal whether the learner attributes slowing to an opposing force acting on the puck or to a stored impetus being used up."
+    },
+    "suggested_exercise": {
+      "description": "Have participants slide identical objects across three surfaces of decreasing friction, such as carpet, a smooth table and a cushion of air, measuring the distance travelled each time. Ask them to extrapolate to a surface with no friction and to state which force is responsible for the difference in each case.",
+      "source": "Friction comparison task."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Bayraktar, S. (2009). Misconceptions of Turkish pre-service teachers about force and motion. International Journal of Science and Mathematics Education, 7(2), 273-291.",
+        "url": "https://doi.org/10.1007/s10763-007-9120-9",
+        "supports": [
+          "teacher_evidence"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Bayraktar (2009) documented misconceptions about force and motion, including the belief that motion requires a sustaining force, in a sample of preservice teachers, confirming that this conception persists into teacher education.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_light_vision_01",
+    "subject": "Science",
+    "topic": "Light, vision and shadows",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "We can see an object as soon as it is lit, without light needing to travel from the object into the eye.",
+    "misconception_variants": [
+      "Light just makes things bright, it does not come to your eye.",
+      "Your eyes adjust to the dark and eventually you can see.",
+      "Seeing happens when something goes out from your eyes to the object.",
+      "Light stays around the lamp and does not travel to the book.",
+      "Man sieht einen Gegenstand, sobald er beleuchtet ist."
+    ],
+    "correct_explanation": "Seeing requires light to enter the eye. The complete path has three stages: light leaves a source, it strikes an object and is scattered from its surface in many directions, and some of that scattered light travels into the eye. If no light reaches the eye, the object cannot be seen no matter how long one waits. In a room that is completely dark, with no light entering at all, the eye cannot adapt its way to seeing a red ball, because there is simply no light to detect; dark adaptation only helps when a very small amount of light is present. A shadow follows from the same model: it is the region behind an object into which light cannot reach because the object blocks its straight-line path. A shadow is therefore an absence of light rather than an image, a reflection, or something the object emits.",
+    "why_it_arises": "Light travels far too fast for its journey to be perceived, so vision feels instantaneous and the intermediate step of light entering the eye is not experienced. Illumination is noticed as a state of the room rather than as something travelling. Diagrams in textbooks often show light going only from the lamp to the object, with no arrow continuing to the observer, which leaves the final and essential stage unrepresented.",
+    "diagnostic_question": {
+      "question": "You are in a completely dark room, with no light entering from anywhere, and there is a red ball on the table. If you wait for half an hour, will your eyes adjust enough to let you see it? Explain your answer in terms of where light travels.",
+      "purpose": "To reveal whether the learner requires light to reach the eye for vision, or believes vision can occur through adaptation alone."
+    },
+    "suggested_exercise": {
+      "description": "Ask participants to draw, with arrows, exactly how they are able to see a book lying on a desk under a lamp, and to mark every place a light ray goes. Compare the drawings and highlight which ones stop at the book. Then ask them to extend the same diagram to explain where the book's shadow comes from.",
+      "source": "Ray-diagram drawing task."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Osborne, J., Black, P., Smith, M. & Meadows, J. (1990). Primary SPACE Project Research Report: Light. Liverpool University Press.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "correct_explanation"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "The incomplete source-object-eye model is reported among adult learners and teacher education students in the science education literature; a study specific to primary preservice teachers has not yet been located for this entry.",
+      "status": "not_found"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_evaporation_01",
+    "subject": "Science",
+    "topic": "Evaporation and conservation of matter",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "When water evaporates it disappears and ceases to exist.",
+    "misconception_variants": [
+      "The puddle dried up so the water is gone.",
+      "Water turns into air when it evaporates.",
+      "Boiling water disappears into nothing.",
+      "The bubbles in boiling water are air.",
+      "Beim Verdunsten verschwindet das Wasser einfach."
+    ],
+    "correct_explanation": "Evaporation is a change of state, not a disappearance. Liquid water becomes gaseous water, called water vapour, which is invisible and disperses among the other gases in the air. The matter is conserved: every water molecule that leaves the puddle still exists and is still water. This can be demonstrated by capturing the vapour, for example by sealing a wet sponge inside a closed bag, where the total mass does not change and droplets reappear on the inside of the bag as the vapour condenses. Water vapour is not air, and it is not the same as the visible white cloud above a kettle: that cloud consists of tiny liquid droplets that have already condensed, whereas the vapour itself is transparent. The bubbles rising through boiling water are water vapour, not air.",
+    "why_it_arises": "The end state of evaporation is invisible, and in everyday reasoning something that cannot be seen is easily taken to be gone. Gases are not intuitively treated as matter with mass. The idea that water turns into air is a reasonable inference from the observation that the water enters the air, and it is rarely challenged because the reverse process, condensation, is usually observed in a different context and is not connected to it.",
+    "diagnostic_question": {
+      "question": "A puddle in the schoolyard disappears over a sunny afternoon. Where is the water now, and could you get any of it back? Explain what happened to the matter.",
+      "purpose": "To reveal whether the learner treats evaporated water as conserved matter in a different state, or as something that has ceased to exist."
+    },
+    "suggested_exercise": {
+      "description": "Seal a wet sponge inside a transparent bag and weigh it, leave it in a warm place, then re-weigh and observe the droplets that form on the inside. Ask participants to predict the mass change before weighing, and to explain the result in terms of where the matter went.",
+      "source": "Sealed-bag conservation of mass task."
+    },
+    "sources": [
+      {
+        "citation": "Driver, R., Squires, A., Rushworth, P. & Wood-Robinson, V. (1994). Making Sense of Secondary Science: Research into Children's Ideas. London: Routledge.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Bar, V. & Travis, A. S. (1991). Children's views concerning phase changes. Journal of Research in Science Teaching, 28(4), 363-382.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "correct_explanation"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Non-conservation of matter during evaporation is documented across age groups including adult learners; a study specific to primary preservice teachers has not yet been located for this entry.",
+      "status": "not_found"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  },
+  {
+    "id": "sci_seasons_01",
+    "subject": "Science",
+    "topic": "Seasons and the Earth-Sun relationship",
+    "knowledge_type": "CK",
+    "language": "en",
+    "misconception": "The seasons are caused by the Earth being closer to the Sun in summer and further away in winter.",
+    "misconception_variants": [
+      "It is hotter in summer because we are nearer the Sun.",
+      "Winter happens when the Earth's orbit takes it far from the Sun.",
+      "The Earth's orbit is a long oval and that is what makes the seasons.",
+      "Im Sommer ist es waermer, weil die Erde der Sonne naeher ist."
+    ],
+    "correct_explanation": "The seasons are caused by the tilt of the Earth's rotational axis, which is inclined about 23.5 degrees relative to the plane of its orbit. When a hemisphere is tilted towards the Sun, sunlight strikes its surface at a steeper angle, so a given amount of energy is spread over a smaller area, and the days are also longer. Both effects raise the temperature. When the same hemisphere is tilted away, sunlight arrives at a shallow angle and is spread over a larger area, and the days are shorter. The distance explanation cannot be correct for two reasons. First, the Earth's orbit is very nearly circular and the Earth is in fact closest to the Sun in early January, during the northern hemisphere's winter. Second, and decisively, the two hemispheres experience opposite seasons at the same moment: when it is summer in Austria it is winter in Australia. Since both hemispheres are the same distance from the Sun at any instant, distance cannot account for the difference, whereas axial tilt explains it exactly.",
+    "why_it_arises": "Nearer to a heat source means warmer is a reliable rule in everyday life, and it transfers readily to the Sun. Textbook and classroom diagrams often exaggerate the ellipticity of the orbit for the sake of perspective, which visually supports the distance account. The tilt explanation also requires holding a three-dimensional geometric relationship in mind and reasoning about the angle at which light meets a surface, which is considerably more demanding.",
+    "diagnostic_question": {
+      "question": "When it is summer in Austria it is winter in Australia, at the very same moment. Explain why this observation rules out the idea that the seasons are caused by the Earth's distance from the Sun, and give the correct explanation.",
+      "purpose": "To reveal whether the learner can use the simultaneity of opposite seasons as evidence against the distance model and can articulate the role of axial tilt."
+    },
+    "suggested_exercise": {
+      "description": "Use a torch and a tilted globe in a darkened room. Move the globe around the torch keeping the axis pointing in a fixed direction, and have participants observe how the illuminated area on each hemisphere changes. Then shine the torch onto squared paper at a steep and at a shallow angle and count how many squares the same beam covers in each case.",
+      "source": "Torch and tilted globe modelling task; see Atwood and Atwood (1996) for the associated research."
+    },
+    "sources": [
+      {
+        "citation": "Atwood, R. K., & Atwood, V. A. (1996). Preservice elementary teachers' conceptions of the causes of seasons. Journal of Research in Science Teaching: The Official Journal of the National Association for Research in Science Teaching, 33(5), 553-563.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "teacher_evidence"
+        ],
+        "verified": true
+      },
+      {
+        "citation": "Shapiro, I., Whitney, C., Sadler, P., & Schneps, M. (1987). A Private Universe, documentary produced by the Harvard-Smithsonian Center for Astrophysics. Science Education Department, Science Media Group.",
+        "url": "",
+        "supports": [
+          "misconception",
+          "why_it_arises"
+        ],
+        "verified": true
+      }
+    ],
+    "teacher_evidence": {
+      "claim": "Atwood and Atwood (1996) studied preservice elementary teachers' conceptions of the causes of seasons and found the distance explanation to be widespread in this population. A Private Universe famously documented the same explanation among Harvard graduates and their teachers, making this one of the clearest illustrations that subject-matter gaps are not confined to pupils.",
+      "status": "verified"
+    },
+    "difficulty": "basic",
+    "target_level": "primary"
+  }
+]

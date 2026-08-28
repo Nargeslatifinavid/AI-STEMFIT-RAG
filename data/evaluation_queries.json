@@ -1,0 +1,62 @@
+[
+    {
+      "query": "A child thinks one fifth must be larger than one third because five is the bigger number. What concept are they misunderstanding?",
+      "expected_id": "math_fraction_comparison_01"
+    },
+    {
+      "query": "Why does multiplying by one half reduce a quantity instead of increasing it?",
+      "expected_id": "math_multiplication_01"
+    },
+    {
+      "query": "Can two rectangles have the same distance around them but contain different amounts of space?",
+      "expected_id": "math_area_perimeter_01"
+    },
+    {
+      "query": "A student says 0.36 is greater than 0.7 because 36 is greater than 7. What is wrong with this reasoning?",
+      "expected_id": "math_decimal_place_value_01"
+    },
+    {
+      "query": "What does changing 62 into 5 tens and 12 ones actually mean when doing subtraction?",
+      "expected_id": "math_subtraction_regrouping_01"
+    },
+    {
+      "query": "Why can a huge cargo vessel stay on the surface of water while a tiny piece of solid metal falls to the bottom?",
+      "expected_id": "sci_floating_sinking_01"
+    },
+    {
+      "query": "When a warm room cools after opening a window in winter, is cold actually entering the room?",
+      "expected_id": "sci_heat_temperature_01"
+    },
+    {
+      "query": "Most of the material in a growing tree does not come from the ground. So where does its biomass come from?",
+      "expected_id": "sci_plant_nutrition_01"
+    },
+    {
+      "query": "After a ball has been pushed and released, does it need a continuing forward force to keep moving?",
+      "expected_id": "sci_force_motion_01"
+    },
+    {
+      "query": "Could you eventually see an object in a room with absolutely no light if you waited long enough for your eyes to adapt?",
+      "expected_id": "sci_light_vision_01"
+    },
+    {
+      "query": "After wet clothes dry, has the water stopped existing or has it gone somewhere else?",
+      "expected_id": "sci_evaporation_01"
+    },
+    {
+      "query": "If summer were caused by Earth being nearer the Sun, how could Australia and Europe have opposite seasons at the same time?",
+      "expected_id": "sci_seasons_01"
+    },
+    {
+      "query": "Someone says dividing six by a number smaller than one should make the answer smaller than six. Is that reasoning correct?",
+      "expected_id": "math_multiplication_01"
+    },
+    {
+      "query": "A learner orders 0.4 below 0.35 because 35 looks larger than 4. Which mathematical idea is missing?",
+      "expected_id": "math_decimal_place_value_01"
+    },
+    {
+      "query": "What actually happens to the water from a shallow dish when the dish is left outside until it becomes dry?",
+      "expected_id": "sci_evaporation_01"
+    }
+  ]
