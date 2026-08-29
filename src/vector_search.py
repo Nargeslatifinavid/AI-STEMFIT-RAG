@@ -98,28 +98,3 @@ if __name__ == "__main__":
 #     print(result)
 #------------------------------------------------------------------------------
 
-
-"""
-#Test inline query--------------------------------------------------------------------------
-
-query = "Why can a heavy ship float while a small metal screw sinks?"  #User query
-query_embedding=model.encode([query],convert_to_numpy=True,normalize_embeddings=True) # Creat the query embedding
-#Test--------------------------------------------------------------------------
-# print(query_embedding)
-# print(query_embedding.shape) #(1, 384)
-#------------------------------------------------------------------------------
-
-k=3  #Retrive 3 top related cards
-scores, indeies =index.search(query_embedding,k) #Semantic search by calculating cosine similarity
-#Test--------------------------------------------------------------------------
-# print(indeces) #[[ 5 10  8]]
-# print(scores)  #[[0.7395704  0.32414705 0.27095243]]
-for rank, (idx,score) in enumerate (zip(indices[0],scores[0]),start=1):
-   card=metadata[idx]
-   print(f"rank {rank} -> {card['id']} | {card['topic']} | score :{score:.4f}")
-   
-   rank 1 -> sci_floating_sinking_01 | Floating, sinking and density : 0.7396    
-   rank 2 -> sci_evaporation_01 | Evaporation and conservation of matter : 0.3241
-   rank 3 -> sci_force_motion_01 | Force and motion : 0.2710
-#------------------------------------------------------------------------------
-   """
