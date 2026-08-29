@@ -90,11 +90,3 @@ if __name__ == "__main__":
       print(item["card"]["correct_explanation"][:200])
 #------------------------------------------------------------------------------
 
-
-#Test search function--------------------------------------------------------------------------
-# query = "Why can a heavy ship float while a small metal screw sinks?"
-# results = search_cards(query=query,model=model,index=index,metadata=metadata,k=3)
-# for result in results:
-#     print(result)
-#------------------------------------------------------------------------------
-
